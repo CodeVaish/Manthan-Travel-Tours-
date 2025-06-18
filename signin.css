@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1.5;
+    width: 100%;
+}
+
+header {
+    height: 56px;
+    padding: 8px 160px 0px 16px;
+}
+
+header img {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in {
+    background-color: #008080;
+    height: 56px;
+    box-shadow: 0 0 10px rgba(29, 28, 28, 0.1);
+    text-align: center;
+    width: 100%;
+}
+
+.sign-in h2 {
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.txt1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.txt2 {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.email {
+    margin-right: 200px;
+    margin-bottom: 0px;
+}
+
+form input {
+    display: inline-block;
+    height: 28px;
+    width: 324px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+form button {
+    font-size: 16px;
+    background-color: #008080;
+    display: inline-block;
+    width: 332px;
+    height: 48px;
+    margin-left: 34px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+form button:hover {
+    background-color: #656262;
+}
+
+.container {
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.text {
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.social-login {
+    height: 104px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.social-login div {
+    height: 80px;
+    width: 80px;
+    border: 0.5px solid rgba(54, 53, 53, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-login div:hover {
+    border: 2px solid #008080;
+}
+
+.social-login img {
+    height: 24px;
+    width: 24px;
+}
+
+footer .txt1 {
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #0071c2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 480px) {
+    .sign-in{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .sign-in{
+        width: 100%;
+    }
+}
+@media (max-width: 400px){
+    .sign-in{
+        width: 120%;
+    }  
+}
+
+

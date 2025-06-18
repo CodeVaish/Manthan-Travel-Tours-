@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manthan - Accommodation Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="icon" type="mathan-icon" href="favicon.png">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo"><img src="Manthan Travel & Tours.png" alt="logo">
+        </div>
+        
+        <nav class="nav"  id="nav">
+            <a href="signin.html" class="Make">Make Reservations</a>
+            <a href="signin.html" class="About">About Us</a>
+            <a href="#service" class="Activity">Activity</a>
+            <a href="#coupans" class="Coupons">Coupons and Promos</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="signin.html"><button class="sign-in" >Sign in</button></a>
+            <a href="signin.html"><button class="sign-up">Sign up</button></a>
+        </div>
+        
+        <button class="menutoggle" id="menutoggle">
+            &#9776; <!-- This is a hamburger icon -->
+        </button>
+    </header>
+    <!-- Travel Guide Notification -->
+    <div class="travel-guide">
+        Overseas trip? Get the latest information on travel guides <a href="#" class="more-info">More Info</a>
+        <src></src>
+    </div>
+    <section class="hero">
+        <img src="plane.jpeg" alt="Scenic Background" class="hero-bg">
+        <div class="hero-content">
+            <h1>Find your favorite place here!</h1>
+            <p>The best prices for over 2 million properties worldwide</p>
+            <div class="search-box">
+                <div class="tabs">
+                    <button class="tab active">All Accommodation</button>
+                    <button class="tab">Villa</button>
+                    <button class="tab">Hotel</button>
+                    <button class="tab">Apartment</button>
+                    <button class="tab">Home Stay</button>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Type the destination">
+                    <input type="date" placeholder="Add date">
+                    <input type="date" placeholder="Add date">
+                    <input type="number" placeholder="Add guests">
+                    <a href="file:///C:/Users/borka/OneDrive/Desktop/Travel%20site/page2.html" class="search-btn">Search Accommodation</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recommendations -->
+    <section class="recommendations">
+        <h2 class="section-title">Holiday accommodation recommendations for you</h2>
+
+        <!-- Filters -->
+        <div class="filters">
+            <input type="text" placeholder="Search by Location" class="filter-input">
+            <button class="filter-btn" onclick="sign-html">Filters</button>
+        </div>
+
+        <!-- Cards Container -->
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="card animate">
+                <img src="house1.jpeg" alt="Westrift Kretya Home" class="card-img">
+                <div class="card-content">
+                    <h3>Westrift Kretya home living manhattan, Autography Collection</h3>
+                    <div class="details">
+                        <span>⭐ 4.5 Rating</span>
+                        <span>📍 Bekasi</span>
+                        <span>📅 Jul 2-7</span>
+                    </div>
+                    <p class="price">$140 / Night</p>
+                    <small>Including taxes and fees</small>
+                    <button class="view-rooms">View Rooms</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card animate">
+                <img src="house2.jpeg" alt="Awokewok Suites" class="card-img">
+                <div class="card-content">
+                    <h3>Awokewok Suites La Maison Jakarta</h3>
+                    <div class="details">
+                        <span>⭐ 5.0 Rating</span>
+                        <span>📍 Jakarta</span>
+                        <span>📅 Jul 2-7</span>
+                    </div>
+                    <p class="price">$130 / Night</p>
+                    <small>Including taxes and fees</small>
+                    <button class="view-rooms">View Rooms</button>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card animate">
+                <img src="house3.jpeg" alt="The Night of Course Residence" class="card-img">
+                <div class="card-content">
+                    <h3>The night of course Residence Lembang</h3>
+                    <div class="details">
+                        <span>⭐ 4.5 Rating</span>
+                        <span>📍 Lembang</span>
+                        <span>📅 Jul 2-7</span>
+                    </div>
+                    <p class="price">$110 / Night</p>
+                    <small>Including taxes and fees</small>
+                    <button class="view-rooms">View Rooms</button>
+                </div>
+            </div>
+
+
+            <!-- Card 4 -->
+            <div class="card animate">
+                <img src="house7.jpeg" alt="Awokewok Suites" class="card-img">
+                <div class="card-content">
+                    <h3>The greate Wyndham Casablanca Jakarta</h3>
+                    <div class="details">
+                        <span>⭐ 5.0 Rating</span>
+                        <span>📍 Jakarta</span>
+                        <span>📅 Jul 2-7</span>
+                    </div>
+                    <p class="price">$85 / Night</p>
+                    <small>Including taxes and fees</small>
+                    <button class="view-rooms">View Rooms</button>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card animate">
+                <img src="house8.jpeg" alt="Awokewok Suites" class="card-img">
+                <div class="card-content">
+                    <h3>Sandalwood Boutique Hotel Lembang</h3>
+                    <div class="details">
+                        <span>⭐ 5.0 Rating</span>
+                        <span>📍 Jakarta</span>
+                        <span>📅 Jul 2-7</span>
+                    </div>
+                    <p class="price">$95 / Night</p>
+                    <small>Including taxes and fees</small>
+                    <button class="view-rooms">View Rooms</button>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card animate">
+                <img src="house3.jpeg" alt="Awokewok Suites" class="card-img">
+                <div class="card-content">
+                    <h3>Greate Manhattan View Hotel manhattan</h3>
+                    <div class="details">
+                        <span>⭐ 5.0 Rating</span>
+                        <span>📍 Jakarta</span>
+                        <span>📅 Jul 2-7</span>
+                    </div>
+                    <p class="price">$120 / Night</p>
+                    <small>Including taxes and fees</small>
+                    <button class="view-rooms">View Rooms</button>
+                </div>
+
+
+
+            </div>
+    </section>
+    <section>
+        <!-- Destination Section -->
+        <header class="destination-header">
+            <h1 class="header-text"><span class="location-icon">📍</span> Explore stays in popular destinations</h1>
+            <nav class="categories">
+                <a href="#">Beach</a>
+                <a href="#">Culture</a>
+                <a href="#">Ski</a>
+                <a href="#">Family</a>
+                <a href="#">Wellness and Relaxation</a>
+            </nav>
+            <hr>
+        </header>
+
+        <section class="destinations">
+            <div class="destination-card animate">
+                <img src="India Gate, Delhi.jpeg" alt="Mumbai">
+                <div class="destination-info">
+                    <h3>Mumbai</h3>
+                    <p>Maharastra, India</p>
+                </div>
+            </div>
+            <div class="destination-card animate">
+                <img src="Mahabaleshwar.jpeg" alt="Mahabaleshwar">
+                <div class="destination-info">
+                    <h3>Mahabaleshwar</h3>
+                    <p>Maharastra, India</p>
+                </div>
+            </div>
+            <div class="destination-card animate">
+                <img src="ratnagiri.jpeg" alt="Ratnagiri">
+                <div class="destination-info">
+                    <h3>Ratnagiri</h3>
+                    <p>Maharastra, India</p>
+                </div>
+            </div>
+            <div class="destination-card animate">
+                <img src="pune.jpeg" alt="Pune">
+                <div class="destination-info">
+                    <h3>Pune</h3>
+                    <p>Maharastra, India</p>
+                </div>
+            </div>
+            <div class="destination-card animate">
+                <img src="goa.jpeg" alt="Goa">
+                <div class="destination-info">
+                    <h3>Goa</h3>
+                    <p>Maharastra, India</p>
+                </div>
+            </div>
+
+
+        </section>
+        </div>
+
+        <!-- Footer CTA -->
+        <footer class="cta-buttons">
+            <button class="cta-button">Latest Promos</button>
+            <button class="cta-button">Our Offerings</button>
+            <button class="cta-button">More Info</button>
+            <button class="cta-button">More Info</button>
+        </footer>
+
+    </section>
+    <!-- Aboli -->
+    <section class="service" id="service">
+        <div class="container">
+          <h1 class="heading">We'll handle your trip for you</h1>
+          <div class="services">
+            <div class="service animated">
+              <img src="flight.png" alt="Flight Booking">
+              <h3>Flight Booking</h3>
+              <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+            </div>
+            <div class="service animated">
+              <img src="tour.png" alt="Tours & Activities">
+              <h3>Tours & Activities</h3>
+              <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+            </div>
+            <div class="service animated">
+              <img src="airport.png" alt="Airport Transfers">
+              <h3>Airport Transfers</h3>
+              <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+            </div>
+            <div class="service animated">
+              <img src="hotel.png" alt="Hotel Bookings">
+              <h3>Hotel Bookings</h3>
+              <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+        <script src="service-scripts.js"></script>
+      
+        <section class="testimonal">
+        <div class="container">
+          <h1>Our favorite travelers</h1>
+          <div class="testimonial-wrapper">
+            <div class="testimonial" data-animate>
+              <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who’ve tried it is invaluable.</p>
+              <h3>Shalini Passi</h3>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial" data-animate>
+              <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who’ve tried it is invaluable.</p>
+              <h3>Julia Patel</h3>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial" data-animate>
+              <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who’ve tried it is invaluable.</p>
+              <h3>XYZ</h3>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+        </section>
+    
+    <!-- Sign in, save money -->
+    <section class="coupans and promos" id="coupans">
+
+        <div class="heade">
+            <h1>Travel more, spend less</h1>
+        </div>
+        <div class="main">
+            <div class="box1">
+                <div class="container1">
+                    <div class="grid-container">
+                        <div class="content-box">
+                            <div class="headieg">Sign in, save money</div>
+                            <div class="content">Save 10% or more at participating properties - just look for the blue
+                                Genius label</div>
+                            <div class="buttons">
+                                <a href="signin.html"> <button class="sign-inbtn">Sign In</button></a>
+                                <a href="signin.html"> <button class="register">Register</button></a>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="genius.png" alt="Genius">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="circle"></div>
+                <div class="square">
+                    <div class="row1">
+                        <h1> Find </h1>
+                        <span class="textone"></span>
+                    </div>
+                    <h1>For your Next Trip</h1>
+                    <a href="signin.html"><button>Discover</button></a>
+                </div>
+                <div class="picture"><img src="help.png"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <section>
+            <!-- footer page -->
+            <div class="foot-panel1">
+
+                <div class="logo"> <img src="Manthan Travel & Tours.png" alt="logo"></div>
+
+                <p>At Manthan Tour and Travel, we bring your dream destinations to life.<br>
+                    With every journey, we craft unforgettable memories filled with joy and adventure.<br>
+                    From serene escapes to thrilling explorations, your perfect trip awaits.<br>
+                    Let us guide you to experiences that stay with you forever.</p>
+            </div>
+
+            <div class="foot-panel2">
+                <ul>
+                    <p>Explore More</p>
+                    <a>Home</a>
+                    <a>Destinations</a>
+                    <a>Travel Packages</a>
+                    <a>About Us</a>
+                    <a>Contact Us</a>
+                    <a>Quick Links</a>
+
+                </ul>
+                <ul>
+                    <p>Quick Links</p>
+                    <a>Facebook</a>
+                    <a>FAQs</a>
+                    <a>Terms & Conditions</a>
+                    <a>Privacy Policy</a>
+                    <a>Travel Blog</a>
+                    <a>Travel Insurance</a>
+
+
+                </ul>
+                <ul>
+                    <p>Support</p>
+                    <a>FAQs</a>
+                    <a>Travel Policies</a>
+                    <a>Cancellation Guidelines</a>
+                    <a>Customer Support</a>
+                    <a> Coupans and Promos</a>
+
+                </ul>
+                <ul>
+                    <p>Destination</p>
+                    <a>Popular Destinations</a>
+                    <a>Weekend Getaways</a>
+                    <a>Adventure Tours</a>
+                    <a>International Tours</a>
+                    <a>Help</a>
+                </ul>
+
+            </div>
+            
+
+            <div class="foot-panel3">
+                <div class="registertxt">
+
+                    <p>Register for free</p>
+
+                    <a href="signin.html"><button> SIGN IN</button></a>
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="foot-panel4">
+                <a href="facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://x.com/i/flow/login"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/login/in"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="foot-panel5">
+
+
+                <div class="pages">
+                    <a href="#">Conditions of Use</a>
+                    <a href="#">Private Notice</a>
+                    <a href="#">Intrest-Based Ads</a>
+                    <div class="copyright">
+                        <p>© 1996-2024, Manthan.com, Inc. or its affiliates</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </footer>
+        </section>
+
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+
+</html>
