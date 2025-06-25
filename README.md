@@ -2,7 +2,7 @@
 Manthan is a responsive and interactive accommodation booking website for travel lovers. Designed to help users explore and book stays like hotels, villas, and apartments, it features a clean UI and real-time search experience using HTML, CSS, Bootstrap, and JavaScript.
 🌍 Live Demo
 
-🔗 # https://codevaish.github.io/Manthan-Travel-Tours-/
+🔗 https://manthan-dfd73.web.app
 
 ✨ Features
 
